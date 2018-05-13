@@ -7,7 +7,7 @@ branches:
 clone_folder: c:\projects\appveyor_test
 image:
 - Visual Studio 2017
-  #- Visual Studio 2015
+- Visual Studio 2015
   #- Visual Studio 2013
 configuration:
 - RelWithDebInfo
