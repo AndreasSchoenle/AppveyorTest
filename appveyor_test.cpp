@@ -3,6 +3,7 @@
 
 int main(int argc, char * argv[])
 {
+	std::cout << "Feature-1 Branch" << std::endl;
 	BOOL bIsWow64;
 	if (!IsWow64Process(GetCurrentProcess(), &bIsWow64))
 	{
